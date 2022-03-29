@@ -130,3 +130,53 @@ a {
     font-weight: bold;
     font-size: 24px;
 }
+
+.container4 {
+    display: flex;
+    background-color: #3882f6;
+    margin: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    justify-content: space-around;
+    padding: 36px;
+}
+
+.bottom {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 2px solid white;
+}
+
+.callbold {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+.calltext {
+    font-size: 18px;
+    color: white;
+}
+
+.lefttext {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+#botbutton {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
