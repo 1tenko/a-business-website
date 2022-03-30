@@ -10,7 +10,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0;
 }
@@ -18,12 +18,14 @@ body {
 .hlogo {
     font-size: 24px;
     color: #f9faf8;
+    padding-left: 336px;
 }
 
 ul {
     display: flex;
     gap: 24px;
     list-style-type: none;
+    padding-right: 336px;
 }
 
 a {
@@ -34,10 +36,14 @@ a {
 .subcontainer {
     display: flex;
     font-family:Arial, Helvetica, sans-serif;
-    justify-content: center;
+    justify-content: space-between;
     padding: 112px;
+    padding-left: 336px;
+    padding-right: 336px;
     gap: 32px;
 }
+
+
 
 .subhead {
     font-size: 48px;
@@ -67,6 +73,7 @@ a {
     flex: 1 1 0px;
     max-width: 500px;
     padding: 8px;
+    padding-left: 0;
 }
 
 .right {
@@ -76,6 +83,12 @@ a {
     justify-content: center;
     align-items: center;
     max-width: 500px;
+}
+
+.rightcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .infoheader {
@@ -89,7 +102,7 @@ a {
 .container2 {
     display: flex;
     justify-content: center;
-    gap: 48px;
+    gap: 112px;
     margin: 36px;
 }
 
